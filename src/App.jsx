@@ -21,6 +21,7 @@ import Seven from './Component/SCGPA/Seven'
 import Eight from './Component/SCGPA/Eight'
 
 function App() {
+ console.log("dude");
  
 
   return (
