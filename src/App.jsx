@@ -2,7 +2,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './Component/Navbar/Navbar'
 import Sidebar from './Component/Sidebar/Sidebar'
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import Profile from './pages/profile/Profile'
 import Section from './pages/Section'
 import Scgpa from './pages/Sgpa/Scgpa'
@@ -24,7 +24,7 @@ function App() {
  
 
   return (
-   <>
+   <div className=''>
    <Navbar/>
 
    <div className='flex w-full overflow-hidden'>
@@ -51,7 +51,7 @@ function App() {
   </Routes>
 </div>
    </div>
-   </>
+   </div>
   )
 }
 
