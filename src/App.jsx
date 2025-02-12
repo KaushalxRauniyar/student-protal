@@ -6,7 +6,7 @@ import Home from './pages/Home/Home'
 import Profile from './pages/profile/Profile'
 import Section from './pages/Section'
 import Scgpa from './pages/Sgpa/Scgpa'
-import ImageRec from './pages/ImageRec'
+import ImageRec from './pages/health/ImageRec'
 import Book from './pages/Books/Book'
 import Test from './pages/Test'
 import Games from './pages/Games'
@@ -43,7 +43,7 @@ function App() {
 <Route path='/scgpa/6' element={<Six/>}/>
 <Route path='/scgpa/7' element={<Seven/>}/>
 <Route path='/scgpa/8' element={<Eight/>}/>
-<Route path='/image' element={<ImageRec/>}/>
+<Route path='/health_status' element={<ImageRec/>}/>
 <Route path='/book' element={<Book/>}/>
 <Route path='/test' element={<Test/>}/>
 <Route path='/game' element={<Games/>}/>

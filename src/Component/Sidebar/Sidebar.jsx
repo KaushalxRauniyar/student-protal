@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import './sidebar.css'
-import { Book, BookAIcon, Computer, Gamepad,  Home, Image, Section, TestTube2, User } from 'lucide-react'
+import { Book, BookAIcon, Computer, Gamepad,  Home, Hospital, Image, Section, TestTube2, User } from 'lucide-react'
 function Sidebar() {
   return (
     <div className='w-[17%] overflow-y-auto   min-h-screen bg-gradient-to-t from bg-green-200 to-gray-600'>
@@ -17,8 +17,8 @@ function Sidebar() {
             <NavLink className='bg-white navv' to='/scgpa'>
                <Computer /> SCGPA Calculator
             </NavLink>
-            <NavLink className='bg-white navv' to='/image'>
-               <Image/> Image Recognitaion
+            <NavLink className='bg-white navv' to='/health_status'>
+               <Hospital/> Health Status
             </NavLink>
               <NavLink className='bg-white navv' to='/book'>
               <Book/>  Book Suggestion
